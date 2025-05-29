@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RegionWeatherBriefing creationTime="2025-05-14T14:27:55" fullPackage="true" xmlns="http://aeec.aviation-ia.net/633" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://aeec.aviation-ia.net/633 RegionWeatherBriefing.xsd">
+    <M633Header timestamp="2025-05-14T14:27:55" versionNumber="3"/>
+    <M633SupplementaryHeader>
+        <Flight flightOriginDate="2025-05-14" scheduledTimeOfDeparture="2025-05-14T16:00:00Z">
+            <FlightIdentification>
+                <FlightIdentifier>SXSTST7</FlightIdentifier>
+                <FlightNumber airlineIATACode="XQ" number="TST7">
+                    <CommercialFlightNumber>XQTST7</CommercialFlightNumber>
+                </FlightNumber>
+            </FlightIdentification>
+            <DepartureAirport>
+                <AirportICAOCode>LTAI</AirportICAOCode>
+                <AirportIATACode>AYT</AirportIATACode>
+            </DepartureAirport>
+            <ArrivalAirport>
+                <AirportICAOCode>EDDK</AirportICAOCode>
+                <AirportIATACode>CGN</AirportIATACode>
+            </ArrivalAirport>
+        </Flight>
+        <Aircraft aircraftRegistration="TCSMB">
+            <AircraftModel>
+                <AircraftICAOType>B38M</AircraftICAOType>
+            </AircraftModel>
+        </Aircraft>
+    </M633SupplementaryHeader>
+    <RegionWeathers>
+        <RegionWeather issuer="LTAA" type="SIGMET" startValidTime="2025-05-14T13:10:00" endValidTime="2025-05-14T17:00:00" observationTime="2025-05-14T13:10:00" sequence="1">
+            <RegionWeatherText>
+                <Paragraph sequence="1">
+                    <Text>SIGMET 5 VALID 141310/141700 LTAC- LTAA ANKARA FIR</Text>
+                </Paragraph>
+                <Paragraph sequence="2">
+                    <Text>EMBD TS FCST W OF LINE N42 E035 - N37 E038 TOP FL320</Text>
+                </Paragraph>
+                <Paragraph sequence="3">
+                    <Text>MOV NE 15KT INTSF=</Text>
+                </Paragraph>
+            </RegionWeatherText>
+            <Location>
+                <Airspaces>
+                    <Airspace airspaceICAOCode="LTAA">
+                        <AirspaceName>ANKARA FIR</AirspaceName>
+                    </Airspace>
+                </Airspaces>
+                <Geography>
+                    <Polygon>
+                        <Coordinates sequence="1" latitude="+151388.00" longitude="+125877.00"/>
+                        <Coordinates sequence="2" latitude="+151200.00" longitude="+111600.00"/>
+                        <Coordinates sequence="3" latitude="+142200.00" longitude="+111600.00"/>
+                        <Coordinates sequence="4" latitude="+141300.00" longitude="+109800.00"/>
+                        <Coordinates sequence="5" latitude="+140400.00" longitude="+108000.00"/>
+                        <Coordinates sequence="6" latitude="+129900.00" longitude="+108000.00"/>
+                        <Coordinates sequence="7" latitude="+129296.00" longitude="+120778.00"/>
+                        <Coordinates sequence="8" latitude="+129298.00" longitude="+124589.00"/>
+                        <Coordinates sequence="9" latitude="+129300.00" longitude="+128400.00"/>
+                        <Coordinates sequence="10" latitude="+129360.00" longitude="+129300.00"/>
+                        <Coordinates sequence="11" latitude="+129180.00" longitude="+130260.00"/>
+                        <Coordinates sequence="12" latitude="+129540.00" longitude="+130740.00"/>
+                        <Coordinates sequence="13" latitude="+129600.00" longitude="+131280.00"/>
+                        <Coordinates sequence="14" latitude="+129840.00" longitude="+131400.00"/>
+                        <Coordinates sequence="15" latitude="+130020.00" longitude="+131340.00"/>
+                        <Coordinates sequence="16" latitude="+130320.00" longitude="+131400.00"/>
+                        <Coordinates sequence="17" latitude="+130470.00" longitude="+132300.00"/>
+                        <Coordinates sequence="18" latitude="+131100.00" longitude="+131880.00"/>
+                        <Coordinates sequence="19" latitude="+132060.00" longitude="+131940.00"/>
+                        <Coordinates sequence="20" latitude="+132450.00" longitude="+132480.00"/>
+                        <Coordinates sequence="21" latitude="+131820.00" longitude="+133860.00"/>
+                        <Coordinates sequence="22" latitude="+131940.00" longitude="+134580.00"/>
+                        <Coordinates sequence="23" latitude="+132479.00" longitude="+136800.00"/>
+                        <Coordinates sequence="24" latitude="+133200.00" longitude="+136800.00"/>
+                        <Coordinates sequence="25" latitude="+151388.00" longitude="+125877.00"/>
+                    </Polygon>
+                    <MovementSpeed>
+                        <Value unit="kt">0</Value>
+                    </MovementSpeed>
+                    <MovementDirection>
+                        <Value type="true" unit="deg">0</Value>
+                    </MovementDirection>
+                </Geography>
+            </Location>
+        </RegionWeather>
+        <RegionWeather issuer="LTAA" type="SIGMET" startValidTime="2025-05-14T12:05:00" endValidTime="2025-05-14T16:05:00" observationTime="2025-05-14T12:05:00" sequence="2">
+            <RegionWeatherText>
+                <Paragraph sequence="1">
+                    <Text>SIGMET 4 VALID 141205/141605 LTAC- LTAA ANKARA FIR</Text>
+                </Paragraph>
+                <Paragraph sequence="2">
+                    <Text>EMBD TS FCST E OF LINE N42 E041 - N37 E038 TOP FL320</Text>
+                </Paragraph>
+                <Paragraph sequence="3">
+                    <Text>MOV NE 15KT WKN=</Text>
+                </Paragraph>
+            </RegionWeatherText>
+            <Location>
+                <Airspaces>
+                    <Airspace airspaceICAOCode="LTAA">
+                        <AirspaceName>ANKARA FIR</AirspaceName>
+                    </Airspace>
+                </Airspaces>
+                <Geography>
+                    <Polygon>
+                        <Coordinates sequence="1" latitude="+132479.00" longitude="+136800.00"/>
+                        <Coordinates sequence="2" latitude="+132780.00" longitude="+138060.00"/>
+                        <Coordinates sequence="3" latitude="+132660.00" longitude="+138600.00"/>
+                        <Coordinates sequence="4" latitude="+132000.00" longitude="+139770.00"/>
+                        <Coordinates sequence="5" latitude="+132120.00" longitude="+143340.00"/>
+                        <Coordinates sequence="6" latitude="+133320.00" longitude="+146700.00"/>
+                        <Coordinates sequence="7" latitude="+133500.00" longitude="+150180.00"/>
+                        <Coordinates sequence="8" latitude="+134220.00" longitude="+152400.00"/>
+                        <Coordinates sequence="9" latitude="+133560.00" longitude="+152880.00"/>
+                        <Coordinates sequence="10" latitude="+134096.00" longitude="+153539.00"/>
+                        <Coordinates sequence="11" latitude="+134220.00" longitude="+154140.00"/>
+                        <Coordinates sequence="12" latitude="+134280.00" longitude="+155400.00"/>
+                        <Coordinates sequence="13" latitude="+134460.00" longitude="+155580.00"/>
+                        <Coordinates sequence="14" latitude="+133860.00" longitude="+157860.00"/>
+                        <Coordinates sequence="15" latitude="+134220.00" longitude="+158520.00"/>
+                        <Coordinates sequence="16" latitude="+133860.00" longitude="+159420.00"/>
+                        <Coordinates sequence="17" latitude="+133440.00" longitude="+159120.00"/>
+                        <Coordinates sequence="18" latitude="+133080.00" longitude="+159720.00"/>
+                        <Coordinates sequence="19" latitude="+133800.00" longitude="+160800.00"/>
+                        <Coordinates sequence="20" latitude="+133680.00" longitude="+161340.00"/>
+                        <Coordinates sequence="21" latitude="+134220.00" longitude="+161100.00"/>
+                        <Coordinates sequence="22" latitude="+135060.00" longitude="+160560.00"/>
+                        <Coordinates sequence="23" latitude="+135300.00" longitude="+160680.00"/>
+                        <Coordinates sequence="24" latitude="+135780.00" longitude="+160620.00"/>
+                        <Coordinates sequence="25" latitude="+136440.00" longitude="+159660.00"/>
+                        <Coordinates sequence="26" latitude="+136980.00" longitude="+159480.00"/>
+                        <Coordinates sequence="27" latitude="+137829.00" longitude="+160187.00"/>
+                        <Coordinates sequence="28" latitude="+138540.00" longitude="+159540.00"/>
+                        <Coordinates sequence="29" latitude="+139620.00" longitude="+159660.00"/>
+                        <Coordinates sequence="30" latitude="+140071.00" longitude="+159149.00"/>
+                        <Coordinates sequence="31" latitude="+140580.00" longitude="+159300.00"/>
+                        <Coordinates sequence="32" latitude="+141120.00" longitude="+158880.00"/>
+                        <Coordinates sequence="33" latitude="+141240.00" longitude="+159060.00"/>
+                        <Coordinates sequence="34" latitude="+141720.00" longitude="+159060.00"/>
+                        <Coordinates sequence="35" latitude="+141840.00" longitude="+160020.00"/>
+                        <Coordinates sequence="36" latitude="+143040.00" longitude="+160800.00"/>
+                        <Coordinates sequence="37" latitude="+142740.00" longitude="+161520.00"/>
+                        <Coordinates sequence="38" latitude="+142980.00" longitude="+161220.00"/>
+                        <Coordinates sequence="39" latitude="+144000.00" longitude="+160080.00"/>
+                        <Coordinates sequence="40" latitude="+144174.00" longitude="+159360.00"/>
+                        <Coordinates sequence="41" latitude="+144416.00" longitude="+157193.00"/>
+                        <Coordinates sequence="42" latitude="+146036.00" longitude="+157139.00"/>
+                        <Coordinates sequence="43" latitude="+147024.00" longitude="+157266.00"/>
+                        <Coordinates sequence="44" latitude="+148080.00" longitude="+156480.00"/>
+                        <Coordinates sequence="45" latitude="+148500.00" longitude="+155640.00"/>
+                        <Coordinates sequence="46" latitude="+148920.00" longitude="+155160.00"/>
+                        <Coordinates sequence="47" latitude="+149744.00" longitude="+154108.00"/>
+                        <Coordinates sequence="48" latitude="+149400.00" longitude="+152880.00"/>
+                        <Coordinates sequence="49" latitude="+149580.00" longitude="+152280.00"/>
+                        <Coordinates sequence="50" latitude="+149460.00" longitude="+151020.00"/>
+                        <Coordinates sequence="51" latitude="+149460.00" longitude="+149580.00"/>
+                        <Coordinates sequence="52" latitude="+149576.00" longitude="+149219.00"/>
+                        <Coordinates sequence="53" latitude="+150277.00" longitude="+147002.00"/>
+                        <Coordinates sequence="54" latitude="+133200.00" longitude="+136800.00"/>
+                        <Coordinates sequence="55" latitude="+132479.00" longitude="+136800.00"/>
+                    </Polygon>
+                    <MovementSpeed>
+                        <Value unit="kt">0</Value>
+                    </MovementSpeed>
+                    <MovementDirection>
+                        <Value type="true" unit="deg">0</Value>
+                    </MovementDirection>
+                </Geography>
+            </Location>
+        </RegionWeather>
+        <RegionWeather issuer="LYBA" type="SIGMET" startValidTime="2025-05-14T12:00:00" endValidTime="2025-05-14T16:00:00" observationTime="2025-05-14T11:17:00" sequence="3">
+            <RegionWeatherText>
+                <Paragraph sequence="1">
+                    <Text>SIGMET U01 VALID 141200/141600 LYBE- LYBA BEOGRAD FIR</Text>
+                </Paragraph>
+                <Paragraph sequence="2">
+                    <Text>SEV TURB FCST S OF LINE N4233 E01827 - N4152 E01923</Text>
+                </Paragraph>
+                <Paragraph sequence="3">
+                    <Text>FL260/360 MOV SE WKN=</Text>
+                </Paragraph>
+            </RegionWeatherText>
+            <Location>
+                <Airspaces>
+                    <Airspace airspaceICAOCode="LYBA">
+                        <AirspaceName>BEOGRAD FIR</AirspaceName>
+                    </Airspace>
+                </Airspaces>
+                <Geography>
+                    <Polygon>
+                        <Coordinates sequence="1" latitude="+150764.00" longitude="+69720.00"/>
+                        <Coordinates sequence="2" latitude="+153180.00" longitude="+66419.00"/>
+                        <Coordinates sequence="3" latitude="+153180.00" longitude="+66378.00"/>
+                        <Coordinates sequence="4" latitude="+152979.00" longitude="+66319.00"/>
+                        <Coordinates sequence="5" latitude="+152817.00" longitude="+66611.00"/>
+                        <Coordinates sequence="6" latitude="+152745.00" longitude="+66738.00"/>
+                        <Coordinates sequence="7" latitude="+152683.00" longitude="+66721.00"/>
+                        <Coordinates sequence="8" latitude="+152570.00" longitude="+66758.00"/>
+                        <Coordinates sequence="9" latitude="+151919.00" longitude="+66959.00"/>
+                        <Coordinates sequence="10" latitude="+149100.00" longitude="+65940.00"/>
+                        <Coordinates sequence="11" latitude="+148080.00" longitude="+67920.00"/>
+                        <Coordinates sequence="12" latitude="+149249.00" longitude="+68760.00"/>
+                        <Coordinates sequence="13" latitude="+150660.00" longitude="+69720.00"/>
+                        <Coordinates sequence="14" latitude="+150764.00" longitude="+69720.00"/>
+                    </Polygon>
+                    <MovementSpeed>
+                        <Value unit="kt">0</Value>
+                    </MovementSpeed>
+                    <MovementDirection>
+                        <Value type="true" unit="deg">0</Value>
+                    </MovementDirection>
+                </Geography>
+            </Location>
+        </RegionWeather>
+    </RegionWeathers>
+</RegionWeatherBriefing>

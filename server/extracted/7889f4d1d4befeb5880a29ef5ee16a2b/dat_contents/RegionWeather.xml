@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RegionWeatherBriefing creationTime="2025-05-29T03:58:53.976250+00:00" fullPackage="true" xmlns="http://aeec.aviation-ia.net/633" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://aeec.aviation-ia.net/633 RegionWeatherBriefing.xsd">
+  <M633Header versionNumber="3" timestamp="2025-05-29T03:57:36Z"/>
+  <M633SupplementaryHeader>
+    <Flight flightOriginDate="2025-05-29" scheduledTimeOfDeparture="2025-05-29T09:05:00Z">
+      <FlightIdentification>
+        <FlightIdentifier>KAL651</FlightIdentifier>
+        <FlightNumber airlineIATACode="KE" number="651">
+          <CommercialFlightNumber>KE651</CommercialFlightNumber>
+        </FlightNumber>
+      </FlightIdentification>
+      <DepartureAirport airportName="INCHEON INTL" airportFunction="DepartureAirport">
+        <AirportICAOCode>RKSI</AirportICAOCode>
+        <AirportIATACode>ICN</AirportIATACode>
+      </DepartureAirport>
+      <ArrivalAirport airportName="SUVARNABHUMI INTL" airportFunction="ArrivalAirport">
+        <AirportICAOCode>VTBS</AirportICAOCode>
+        <AirportIATACode>BKK</AirportIATACode>
+      </ArrivalAirport>
+    </Flight>
+    <Aircraft aircraftRegistration="HL8538">
+      <AircraftModel>
+        <AircraftICAOType>B78X</AircraftICAOType>
+      </AircraftModel>
+    </Aircraft>
+  </M633SupplementaryHeader>
+  <RegionWeathers>
+    <RegionWeather source="UKMO" issuer="RCAA" type="SIGMET" startValidTime="2025-05-28T23:32:00.000000" endValidTime="2025-05-29T03:00:00.000000" observationTime="2025-05-29T03:59:10.431488" sequence="1">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>RCAA SIGMET 10 VALID 282332/290300 RCTP-&#xD;&#xD;
+RCAA TAIPEI FIR EMBD TS FCST S OF LINE N2800 E12400 - N2500 E11730&#xD;&#xD;
+TOP FL440 MOV NE 10KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="RCAA">
+            <AirspaceName>TAIPEI FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="RCAA" type="SIGMET" startValidTime="2025-05-29T03:00:00.000000" endValidTime="2025-05-29T07:00:00.000000" observationTime="2025-05-29T03:59:10.431493" sequence="2">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>RCAA SIGMET 1 VALID 290300/290700 RCTP-&#xD;&#xD;
+RCAA TAIPEI FIR EMBD TS FCST N OF N2200 TOP FL470 MOV NE 20KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="RCAA">
+            <AirspaceName>TAIPEI FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="RJJJ" type="SIGMET" startValidTime="2025-05-28T23:52:00.000000" endValidTime="2025-05-29T03:52:00.000000" observationTime="2025-05-29T03:59:10.741795" sequence="3">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>RJJJ SIGMET S07 VALID 282352/290352 RJTD-&#xD;&#xD;
+RJJJ FUKUOKA FIR SEV TURB FCST WI N4251 E15658 - N4521 E15416 - N4847&#xD;&#xD;
+E16009 - N4553 E16245 - N4251 E15658 FL390/430 MOV ENE 30KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="RJJJ">
+            <AirspaceName>FUKUOKA FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="RJJJ" type="SIGMET" startValidTime="2025-05-29T02:14:00.000000" endValidTime="2025-05-29T06:14:00.000000" observationTime="2025-05-29T03:59:10.741802" sequence="4">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>RJJJ SIGMET X01 VALID 290214/290614 RJTD-&#xD;&#xD;
+RJJJ FUKUOKA FIR FRQ TS FCST WI N2303 E13105 - N2632 E13046 - N2811&#xD;&#xD;
+E13542 - N2354 E13527 - N2303 E13105 TOP FL490 MOV ENE 10KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="RJJJ">
+            <AirspaceName>FUKUOKA FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="RJJJ" type="SIGMET" startValidTime="2025-05-29T02:13:00.000000" endValidTime="2025-05-29T06:13:00.000000" observationTime="2025-05-29T03:59:10.741807" sequence="5">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>RJJJ SIGMET Y01 VALID 290213/290613 RJTD-&#xD;&#xD;
+RJJJ FUKUOKA FIR FRQ TS FCST WI N2100 E12250 - N2330 E12400 - N2508&#xD;&#xD;
+E12405 - N2655 E12836 - N2407 E12745 - N2100 E12504 - N2100 E12250&#xD;&#xD;
+TOP FL520 MOV ENE 10KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="RJJJ">
+            <AirspaceName>FUKUOKA FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="RKRR" type="SIGMET" startValidTime="2025-05-29T03:50:00.000000" endValidTime="2025-05-29T07:00:00.000000" observationTime="2025-05-29T03:59:11.036597" sequence="6">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>RKRR SIGMET Y01 VALID 290350/290700 RKSI-&#xD;&#xD;
+RKRR INCHEON FIR EMBD TS OBS N3818 E12727 - N3720 E12755 -&#xD;&#xD;
+       N3626 E12717 - N3439 E12714 - N3451 E12828 - N3700&#xD;&#xD;
+       E12922 - N3839 E12817 - N3818 E12727 TOP FL240 STNR NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="RKRR">
+            <AirspaceName>INCHEON FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="RPHI" type="SIGMET" startValidTime="2025-05-29T01:15:00.000000" endValidTime="2025-05-29T05:15:00.000000" observationTime="2025-05-29T03:59:11.256767" sequence="7">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>RPHI SIGMET A01 VALID 290115/290515 RPLL-&#xD;&#xD;
+RPHI MANILA FIR EMBD TS OBS WI N1037 E12213 - N0633 E11811 - N0730 E11730 - N0858 E11547 - N1223 E11532 - N1826 E12033 - N1037 E12213 TOP FL520 MOV S 5KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="RPHI">
+            <AirspaceName>MANILA FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="UHHH" type="SIGMET" startValidTime="2025-05-29T04:00:00.000000" endValidTime="2025-05-29T06:00:00.000000" observationTime="2025-05-29T03:59:11.409987" sequence="8">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>UHHH SIGMET 2 VALID 290400/290600 UHHH-&#xD;&#xD;
+UHHH KHABAROVSK FIR EMBD TS FCST WI N5823 E13331 - N5438 E13951 -&#xD;&#xD;
+N4638 E14552 - N4811 E13937 - N5516 E13039 - N5823 E13331 TOP FL370&#xD;&#xD;
+STNR NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="UHHH">
+            <AirspaceName>NOVY</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="UHHH" type="SIGMET" startValidTime="2025-05-29T00:13:00.000000" endValidTime="2025-05-29T04:00:00.000000" observationTime="2025-05-29T03:59:11.409994" sequence="9">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>UHHH SIGMET 1 VALID 290013/290400 UHHH-&#xD;&#xD;
+UHHH KHABAROVSK FIR EMBD TS FCST WI N5823 E13331 - N5438 E13951 -&#xD;&#xD;
+N4638 E14552 - N4811 E13937 - N5516 E13039 - N5823 E13331 TOP FL370&#xD;&#xD;
+STNR NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="UHHH">
+            <AirspaceName>NOVY</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="VHHK" type="SIGMET" startValidTime="2025-05-29T02:00:00.000000" endValidTime="2025-05-29T06:00:00.000000" observationTime="2025-05-29T03:59:11.593198" sequence="10">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>VHHK SIGMET 1 VALID 290200/290600 VHHH-&#xD;
+VHHK HONG KONG FIR&#xD;
+EMBD TS FCST WI N2100 E11730 - N2055 E11726 - N1921 E11138 - &#xD;
+N1930 E11130 - N2130 E11130 - N2400 E11730 - N2100 E11730 TOP &#xD;
+FL420 MOV NE 10KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="VHHK">
+            <AirspaceName>HONG KONG FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="VOMF" type="SIGMET" startValidTime="2025-05-29T02:45:00.000000" endValidTime="2025-05-29T06:45:00.000000" observationTime="2025-05-29T03:59:11.722514" sequence="11">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>VOMF SIGMET 01 VALID 290245/290645 VOMM- &#xD;&#xD;
+VOMF CHENNAI FIR EMBD TS FCST WI N1845 E08128 - N1834 E08246 - N1540&#xD;&#xD;
+E08548 - N1339 E09255 - N1157 E08305 - N1559 E08057 - N1845 E08128&#xD;&#xD;
+TOP FL500 STNR NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="VOMF">
+            <AirspaceName>CHENNAI FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="VOMF" type="SIGMET" startValidTime="2025-05-29T02:45:00.000000" endValidTime="2025-05-29T06:45:00.000000" observationTime="2025-05-29T03:59:11.722524" sequence="12">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>VOMF SIGMET A01 VALID 290245/290645 VOMM- &#xD;&#xD;
+VOMF CHENNAI FIR EMBD TS FCST WI N1500 E07204 - N1500 E07307 - N1210&#xD;&#xD;
+E07612 - N1042 E07207 - N1500 E07204 TOP FL480 STNR NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="VOMF">
+            <AirspaceName>CHENNAI FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="VTBB" type="SIGMET" startValidTime="2025-05-29T00:40:00.000000" endValidTime="2025-05-29T04:40:00.000000" observationTime="2025-05-29T03:59:11.917061" sequence="13">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>VTBB SIGMET 01 VALID 290040/290440 VTBS-&#xD;&#xD;
+VTBB BANGKOK FIR EMBD TS OBS WI N1153 E10124 - N1217 E10222 - N1143&#xD;&#xD;
+E10302 - N1058 E10212 - N1021 E10110 - N1121 E10031 - N1153 E10124&#xD;&#xD;
+TOP FL510 MOV SW 10KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="VTBB">
+            <AirspaceName>BANGKOK FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="VVHM" type="SIGMET" startValidTime="2025-05-29T01:05:00.000000" endValidTime="2025-05-29T05:05:00.000000" observationTime="2025-05-29T03:59:11.996673" sequence="14">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>VVHM SIGMET 1 VALID 290105/290505 VVGL-&#xD;&#xD;
+VVHM HO CHI MINH FIR EMBD TS OBS WI N1029 E10613 - N0935 E11225 -&#xD;&#xD;
+N0700 E10758 - N0700 E10413 - N1029 E10613 TOP FL520 MOV SW 10KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="VVHM">
+            <AirspaceName>HO CHI MINH FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="VYYF" type="SIGMET" startValidTime="2025-05-29T02:44:00.000000" endValidTime="2025-05-29T06:44:00.000000" observationTime="2025-05-29T03:59:12.119681" sequence="15">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>VYYF SIGMET 02 VALID 290244/290644 VYYY-&#xD;&#xD;
+VYYF YANGON FIR EMBD TS OBS WI N1536 E09558 - N1628 E09703 - N1321 &#xD;&#xD;
+E09857 - N1145 E09710 - N1222 E09548 - N1536 E09558 TOP FL540 MOV SSW&#xD;&#xD;
+ 10KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="VYYF">
+            <AirspaceName>YANGON FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="VYYF" type="SIGMET" startValidTime="2025-05-29T02:35:00.000000" endValidTime="2025-05-29T06:35:00.000000" observationTime="2025-05-29T03:59:12.119686" sequence="16">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>VYYF SIGMET 01 VALID 290235/290635 VYYY-&#xD;&#xD;
+VYYF YANGON FIR EMBD TS OBS WI N2055 E09511 - N1806 E09532 - N1448 &#xD;&#xD;
+E09208 - N2058 E09208 - N2236 E09322 - N2055 E09511 TOP FL550 MOV E &#xD;&#xD;
+5KT NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="VYYF">
+            <AirspaceName>YANGON FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="WMFC" type="SIGMET" startValidTime="2025-05-29T00:35:00.000000" endValidTime="2025-05-29T04:35:00.000000" observationTime="2025-05-29T03:59:12.190677" sequence="17">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>WMFC SIGMET 1 VALID 290035/290435 WMKK-&#xD;&#xD;
+WMFC KUALA LUMPUR FIR EMBD TS&#xD;&#xD;
+OBS SE OF LINE N0606 E10302 - N0331 E10010 TOP FL500 MOV W NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="WMFC">
+            <AirspaceName>KUALA LUMPUR FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="ZGZU" type="SIGMET" startValidTime="2025-05-29T00:55:00.000000" endValidTime="2025-05-29T04:55:00.000000" observationTime="2025-05-29T03:59:12.359992" sequence="18">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>ZGZU SIGMET 1 VALID 290055/290455 ZGGG-&#xD;&#xD;
+ZGZU GUANGZHOU FIR EMBD TS FCST WI N2510 E11544 - N2233 E10609 -&#xD;&#xD;
+N2030 E10804 - N2030 E11131 - N2318 E11752 - N2510 E11544 TOP FL430&#xD;&#xD;
+MOV E 35KMH NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="ZGZU">
+            <AirspaceName>GUANGZHOU FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="ZJSA" type="SIGMET" startValidTime="2025-05-29T01:15:00.000000" endValidTime="2025-05-29T05:15:00.000000" observationTime="2025-05-29T03:59:12.433752" sequence="19">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>ZJSA SIGMET 1 VALID 290115/290515 ZJHK-&#xD;&#xD;
+ZJSA SANYA FIR EMBD TS FCST WI N2030 E11130 - N2030 E11038 - N1626&#xD;&#xD;
+E10857 - N1354 E11255 - N1651 E11349 - N2030 E11130 TOP FL420 MOV N&#xD;&#xD;
+20KMH NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="ZJSA">
+            <AirspaceName>SANYA FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="ZSHA" type="SIGMET" startValidTime="2025-05-28T23:30:00.000000" endValidTime="2025-05-29T03:30:00.000000" observationTime="2025-05-29T03:59:12.506223" sequence="20">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>ZSHA SIGMET 8 VALID 282330/290330 ZSSS-&#xD;&#xD;
+ZSHA SHANGHAI FIR EMBD TS FCST&#xD;&#xD;
+S OF N27 TOP FL390&#xD;&#xD;
+MOV E 30KMH NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="ZSHA">
+            <AirspaceName>SHANGHAI FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="ZSHA" type="SIGMET" startValidTime="2025-05-29T04:00:00.000000" endValidTime="2025-05-29T08:00:00.000000" observationTime="2025-05-29T03:59:12.506229" sequence="21">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>ZSHA SIGMET 1 VALID 290400/290800 ZSSS-&#xD;&#xD;
+ZSHA SHANGHAI FIR EMBD TS FCST&#xD;&#xD;
+S OF N26 TOP FL390&#xD;&#xD;
+MOV E 30KMH NC=</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="ZSHA">
+            <AirspaceName>SHANGHAI FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+    <RegionWeather source="UKMO" issuer="ZYSH" type="SIGMET" startValidTime="2025-05-29T01:40:00.000000" endValidTime="2025-05-29T05:40:00.000000" observationTime="2025-05-29T03:59:12.585525" sequence="22">
+      <RegionWeatherText>
+        <Paragraph sequence="1">
+          <Text>ZYSH SIGMET 1 VALID 290140/290540 ZYTX-&#xD;&#xD;
+ZYSH SHENYANG FIR SEV TURB FCST&#xD;&#xD;
+W OF LINE N5049 E11929 - N4931 E12352 - N4254 E11742 FL166/300 MOV E&#xD;&#xD;
+ 20KMH NC =</Text>
+        </Paragraph>
+      </RegionWeatherText>
+      <Location>
+        <Airspaces>
+          <Airspace airspaceICAOCode="ZYSH">
+            <AirspaceName>SHENYANG FIR</AirspaceName>
+          </Airspace>
+        </Airspaces>
+      </Location>
+    </RegionWeather>
+  </RegionWeathers>
+</RegionWeatherBriefing>

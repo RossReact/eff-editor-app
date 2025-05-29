@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<FlightPlanAtcIcao flightPlanId="001454" xmlns="http://aeec.aviation-ia.net/633">
+    <M633Header versionNumber="3" timestamp="2025-05-28T21:01:19Z"/>
+    <M633SupplementaryHeader>
+        <Flight flightOriginDate="2025-05-29" scheduledTimeOfDeparture="2025-05-29T09:20:00Z">
+            <FlightIdentification>
+                <FlightIdentifier>KAL1550</FlightIdentifier>
+                <FlightNumber airlineIATACode="KE" number="1550">
+                    <CommercialFlightNumber>KE1550</CommercialFlightNumber>
+                </FlightNumber>
+            </FlightIdentification>
+            <DepartureAirport airportName="JEJU INTL" airportFunction="DepartureAirport">
+                <AirportICAOCode>RKPC</AirportICAOCode>
+                <AirportIATACode>CJU</AirportIATACode>
+            </DepartureAirport>
+            <ArrivalAirport airportName="GIMHAE INTL" airportFunction="ArrivalAirport">
+                <AirportICAOCode>RKPK</AirportICAOCode>
+                <AirportIATACode>PUS</AirportIATACode>
+            </ArrivalAirport>
+        </Flight>
+        <Aircraft aircraftRegistration="HL7708">
+            <AircraftModel>
+                <AircraftICAOType>B739</AircraftICAOType>
+            </AircraftModel>
+        </Aircraft>
+    </M633SupplementaryHeader>
+    <AtcMessageText>
+        <Paragraph sequence="1">
+            <Text>FPL-KAL1550-IS</Text>
+        </Paragraph>
+        <Paragraph sequence="2">
+            <Text>-B739/M-SDE2FGHIM3RWXY/LB1</Text>
+        </Paragraph>
+        <Paragraph sequence="3">
+            <Text>-RKPC0920</Text>
+        </Paragraph>
+        <Paragraph sequence="4">
+            <Text>-N0406F190 DCT AKPON Y571 ANROD DCT</Text>
+        </Paragraph>
+        <Paragraph sequence="5">
+            <Text>-RKPK0041 RKSS RKTN</Text>
+        </Paragraph>
+        <Paragraph sequence="6">
+            <Text>-PBN/A1B1C1D1O1S2 DOF/250529 REG/HL7708 SEL/MPEH CODE/71BF08</Text>
+        </Paragraph>
+        <Paragraph sequence="7">
+            <Text>RMK/TCAS II EQUIPPED</Text>
+        </Paragraph>
+        <Paragraph sequence="8">
+            <Text>-E/0219 P/TBN R/UVE S/M J/LF</Text>
+        </Paragraph>
+        <Paragraph sequence="9">
+            <Text>A/BLUEWHITE</Text>
+        </Paragraph>
+    </AtcMessageText>
+    <AtcMessageDetails messageType=" " messagePriority="FF">
+        <Addressees addresses="RKPCZPZX RKRRZQZX RKPKZPZX RKSSKALO"/>
+        <Originator address="RKSSKALO"/>
+        <Items>
+            <Item7 aTCCallsign="KAL1550"/>
+            <Item8 flightRules="I" typeOfFlight="S"/>
+            <Item9 typeOfAircraft="B739" wakeTurbulence="M"/>
+            <Item10 aircraftEquipment="SDE2FGHIM3RWXY/LB1"/>
+            <Item13 departureAirport="RKPC" departureTime="290920"/>
+            <Item15 cruisingSpeed="N0406" cruisingLevel="F190" route="DCT AKPON Y571 ANROD DCT"/>
+            <Item16 arrivalAirport="RKPK" estimatedFlightTime="0041" alternateAirport="RKSS" secondAlternateAirport="RKTN"/>
+            <Item18 otherInformation="EET/     REG/HL7708 SEL/MPEH">
+                <PBN>A1B1C1D1O1S2</PBN>
+                <DOF>250529</DOF>
+                <REG>HL7708</REG>
+                <SEL>MPEH</SEL>
+                <CODE>71BF08</CODE>
+                <RMK>TCAS II EQUIPPED</RMK>
+            </Item18>
+            <Item19>
+                <E>0219</E>
+                <P>TBN</P>
+                <R>UVE</R>
+                <S>M</S>
+                <J>LF</J>
+                <D>C</D>
+                <A>BLUEWHITE</A>
+            </Item19>
+        </Items>
+    </AtcMessageDetails>
+</FlightPlanAtcIcao>
+

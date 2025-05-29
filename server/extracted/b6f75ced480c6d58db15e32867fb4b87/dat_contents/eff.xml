@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EFUSUB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://aeec.aviation-ia.net/633" xmlns="http://aeec.aviation-ia.net/633" state="New" fullPackage="true">
+  <M633Header versionNumber="3" timestamp="2025-05-28T21:01:19Z"/>
+  <M633SupplementaryHeader>
+    <Flight flightOriginDate="2025-05-29" scheduledTimeOfDeparture="2025-05-29T09:20:00Z">
+      <FlightIdentification>
+        <FlightIdentifier>KAL1550</FlightIdentifier>
+        <FlightNumber airlineIATACode="KE" number="1550">
+          <CommercialFlightNumber>KE1550</CommercialFlightNumber>
+        </FlightNumber>
+      </FlightIdentification>
+      <DepartureAirport airportName="JEJU INTL" airportFunction="DepartureAirport">
+        <AirportICAOCode>RKPC</AirportICAOCode>
+        <AirportIATACode>CJU</AirportIATACode>
+      </DepartureAirport>
+      <ArrivalAirport airportName="GIMHAE INTL" airportFunction="ArrivalAirport">
+        <AirportICAOCode>RKPK</AirportICAOCode>
+        <AirportIATACode>PUS</AirportIATACode>
+      </ArrivalAirport>
+    </Flight>
+    <Aircraft aircraftRegistration="HL7708">
+      <AircraftModel>
+        <AircraftICAOType>B739</AircraftICAOType>
+      </AircraftModel>
+    </Aircraft>
+  </M633SupplementaryHeader>
+  <SubFolder title="_Root_Folder">
+    <SubFolder title="METEO">
+      <Topic name="Weather/Chart"/>
+      <Topic name="Weather/Chart/Blank"/>
+      <Topic name="Weather/Chart/Reclearance"/>
+      <Topic name="Weather/Chart/Profile"/>
+      <Topic name="Weather/Chart/SigWX"/>
+      <Topic name="Weather/Chart/WindTemp"/>
+      <Topic name="Weather/Chart/Prog"/>
+      <Topic name="Weather/Chart/WSI"/>
+      <Topic name="AirlineDefined/skybook/VerticalProfileChart"/>
+      <Topic name="AirlineDefined/skybook/RoutePlotChart"/>
+      <Topic name="AirlineDefined/skybook/BriefingPackCharts"/>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="ROUTE PLOT" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file1" originalFileName="chart_248960429.png" file="chart1_route_plot.png" type="image/png">
+        <Topic name="Weather/Chart"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="VERTICAL PROFILE" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file2" originalFileName="chart_248960426.png" file="chart2_vertical_profile.png" type="image/png">
+        <Topic name="Weather/Chart/Profile"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="SATELLITE IR Satellite Infrared" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file3" originalFileName="chart_248960512.png" file="chart3_satellite_ir.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="SURFACE ANALYSIS Surface Weather" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file4" originalFileName="chart_248960623.png" file="chart4_surface_analysis.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="TURBULENCE Turbulence FL170-FL210 Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file5" originalFileName="chart_248960639.png" file="chart5_turbulence_fl170-fl210_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="TURBULENCE Turbulence FL200-FL250 Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file6" originalFileName="chart_248960640.png" file="chart6_turbulence_fl200-fl250_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="TURBULENCE Turbulence FL250-FL300 Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file7" originalFileName="chart_248960642.png" file="chart7_turbulence_fl250-fl300_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="TURBULENCE Turbulence FL300-FL350 Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file8" originalFileName="chart_248960643.png" file="chart8_turbulence_fl300-fl350_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="TURBULENCE Turbulence FL350-FL400 Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file9" originalFileName="chart_248960641.png" file="chart9_turbulence_fl350-fl400_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="VAAC Volcanic Ash Advisory" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file10" originalFileName="chart_248960460.png" file="chart10_vaac.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="SIGWX SIGWX Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file11" originalFileName="chart_248960525.png" file="chart11_sigwx_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="WIND_AND_TEMPERATURE Wind and Temperature FL300 Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file12" originalFileName="chart_248960503.png" file="chart12_wind_and_temperature_fl300_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="WIND_AND_TEMPERATURE Wind and Temperature FL340 Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file13" originalFileName="chart_248960504.png" file="chart13_wind_and_temperature_fl340_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="WIND_AND_TEMPERATURE Wind and Temperature FL390 Valid 12 UTC 29 May 2025" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file14" originalFileName="chart_248960505.png" file="chart14_wind_and_temperature_fl390_valid_12_utc_29_may_2025.png" type="image/png">
+        <Topic name="Weather/Chart/WSI"/>
+      </Document>
+    </SubFolder>
+    <SubFolder title="Flight plan">
+      <Topic name="FlightPlan/ATCICAO"/>
+      <Topic name="FlightPlan/Operational"/>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="ATCFPLN-1" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file15" file="ATC_34743300.xml" type="text/xml">
+        <Topic name="FlightPlan/ATCICAO"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="OFP 1454 KAL1550 XML" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file17" file="OFP_34743300.xml" type="text/xml">
+        <Topic name="FlightPlan/Operational"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="OFP 1454 KAL1550 PDF" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file18" file="OFP_34743300.pdf" type="application/pdf">
+        <Topic name="FlightPlan"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="OFP 1454 KAL1550 TXT" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file19" file="OFP_34743300.txt" type="text/plain">
+        <Topic name="FlightInfo"/>
+      </Document>
+    </SubFolder>
+    <SubFolder title="NOTAM">
+      <Topic name="NOTAM/All"/>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="NOTAM Information" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file20" file="notam.xml" type="text/xml">
+        <Topic name="NOTAM/All"/>
+      </Document>
+    </SubFolder>
+    <SubFolder title="WX">
+      <Topic name="Weather/Airport"/>
+      <Topic name="Weather/Regional"/>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="Airport Weather Information" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file21" file="AirportWeather.xml" type="text/xml">
+        <Topic name="Weather/Airport"/>
+      </Document>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="Regional WX Information" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file22" file="RegionWeather.xml" type="text/xml">
+        <Topic name="Weather/Regional"/>
+      </Document>
+    </SubFolder>
+    <SubFolder title="TRACKS">
+      <Topic name="OceanicTracks"/>
+      <Document authorProfile="dispatcher" captainOnly="0" mandatory="0" originalDateTime="2025-05-28T21:03:24.966501+00:00" priority="0" status="None" title="Oceanic Tracks" transferPending="0" updateDateTime="2025-05-28T21:03:24.966501+00:00" id="file23" file="OceanicTracks.txt" type="text/plain">
+        <Topic name="OceanicTracks"/>
+      </Document>
+    </SubFolder>
+  </SubFolder>
+</EFUSUB>

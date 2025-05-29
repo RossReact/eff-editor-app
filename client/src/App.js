@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Editor from '@monaco-editor/react';
 
@@ -8,6 +8,14 @@ function App() {
   const [originalName, setOriginalName] = useState('');
   const [selectedFile, setSelectedFile] = useState(null);
   const [content, setContent] = useState('');
+  const [sftpEndpoints, setSftpEndpoints] = useState([]);
+  const [selectedEndpoint, setSelectedEndpoint] = useState('');
+
+  useEffect(() => {
+    axios.get('http://localhost:4000/sftp-endpoints')
+      .then(res => setSftpEndpoints(res.data))
+      .catch(() => setSftpEndpoints([]));
+  }, []);
 
   const handleUpload = async (e) => {
     const formData = new FormData();
@@ -49,9 +57,18 @@ function App() {
     window.location.href = `http://localhost:4000/download/${basePath}/${originalName}`;
   };
 
+  const uploadToSftp = async () => {
+    try {
+      await axios.post(`http://localhost:4000/upload-to-sftp/${basePath}/${originalName}?buildEff=true`, { endpointName: selectedEndpoint });
+      alert('Upload to SFTP successful');
+    } catch (err) {
+      alert('SFTP upload failed: ' + (err.response?.data?.error || err.message));
+    }
+  };
+
   return (
     <div style={{ padding: 20 }}>
-      <h2>Upload .eff File - Do not upload files with brackets or spaces</h2>
+      <h2>Upload .eff File</h2>
       <input type="file" onChange={handleUpload} />
       <ul>
         {files.map(f => (
@@ -79,6 +96,16 @@ function App() {
       {files.length > 0 && (
         <div style={{ marginTop: 20 }}>
           <button onClick={downloadUpdatedEff}>Download Updated .eff File</button>
+          <div style={{ marginTop: 20 }}>
+            <label>SFTP Endpoint: </label>
+            <select value={selectedEndpoint} onChange={e => setSelectedEndpoint(e.target.value)}>
+              <option value="">-- Select Endpoint --</option>
+              {sftpEndpoints.map(ep => (
+                <option key={ep.name} value={ep.name}>{ep.name}</option>
+              ))}
+            </select>
+            <button onClick={uploadToSftp} disabled={!selectedEndpoint}>Upload to SFTP</button>
+          </div>
         </div>
       )}
     </div>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <hashfilelist version = "1.0" toolVersion="1.0">
+    <checkcode>dLqu29kTXnF1pJRDwK7VJA==</checkcode>
+    <hashedfile href="AirportData.xml">jnmyjHxFHMXmkhluD67BtA==</hashedfile>
+    <hashedfile href="AirportWeather.xml">sZ0YGMUSK1T7ERRa5AWxkg==</hashedfile>
+    <hashedfile href="AirspaceData.xml">cI7/6bNoirDRvj05e+ynYg==</hashedfile>
+    <hashedfile href="ATCFlightPlan.xml">RjdR6+q5BmzfFYg17Xe5yw==</hashedfile>
+    <hashedfile href="briefingid.txt">xCa1zQdPQjQJWn5CGWexWg==</hashedfile>
+    <hashedfile href="CrewAdditionalInfo.txt">lr8B3h7be56kZQ/A5yBeqQ==</hashedfile>
+    <hashedfile href="CrewAlert.txt">zE9T0FiN2/acD4b+PNRHAg==</hashedfile>
+    <hashedfile href="CrewBulletin.txt">dn0i5pYBIy1n5+/3Q7GBng==</hashedfile>
+    <hashedfile href="eff.xml">p5pSiQgNkLOF+/8NTlI64A==</hashedfile>
+    <hashedfile href="LTAIEDDK-std.xml">fQ1ADZP45gznOEzVLTcOhg==</hashedfile>
+    <hashedfile href="NOTAM validity.txt">ZX9vR8FUHc4H1llhMSJD4A==</hashedfile>
+    <hashedfile href="NOTAM.xml">AABxfYzKQ2l4nSbIv4oGQQ==</hashedfile>
+    <hashedfile href="Paper Flight Plan.pdf">WOS4nggMtm8owo+XPNmqYg==</hashedfile>
+    <hashedfile href="RAIM.txt">z57cWqV6Sm12Ur4XnlkjqQ==</hashedfile>
+    <hashedfile href="RegionWeather.xml">qXMj5D8GZI+sfAs7Hndt7g==</hashedfile>
+    <hashedfile href="SIGWX_MED_LON_FIX_1418.GIF">8PMC8xi8ccyrR8qpddXlVg==</hashedfile>
+    <hashedfile href="TropicalCyclone.txt">0t3vttoVrbxPernBNv4JbQ==</hashedfile>
+    <hashedfile href="UAD_FL340.GIF">E+CIsLCAZljIar0MmOvxEQ==</hashedfile>
+    <hashedfile href="UAD_FL380.GIF">IkG5JJzx5DpZHD+QBgDJJg==</hashedfile>
+    <hashedfile href="UAD_FL420.GIF">CakxIl3K31KtHILb641MdQ==</hashedfile>
+    <hashedfile href="UpperWindData.xml">kiUtZwf+JpyiJRusWbgq9A==</hashedfile>
+    <hashedfile href="VertProf.GIF">0l5rWlAX2ECCZc+FxltrHQ==</hashedfile>
+    <hashedfile href="VolcanicAsh.txt">aeT2Xt64AOTTttR7xGtJ1g==</hashedfile>
+</hashfilelist>

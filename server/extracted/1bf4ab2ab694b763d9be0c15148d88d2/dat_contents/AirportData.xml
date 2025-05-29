@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AirportData creationTime="2025-05-14T14:27:45" flightPlanId="OFP10/0/0" fullPackage="true" xsi:schemaLocation="http://aeec.aviation-ia.net/633 AirportData.xsd" xmlns="http://aeec.aviation-ia.net/633" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<M633Header timestamp="2025-05-14T14:27:44Z" versionNumber="3"/> 
+<M633SupplementaryHeader>
+    <Flight flightOriginDate="2025-05-14Z" scheduledTimeOfDeparture="2025-05-14T16:00:00Z">
+        <FlightIdentification>
+            <FlightIdentifier>SXSTST7</FlightIdentifier>
+                <FlightNumber airlineIATACode="XQ" number="TST7" >
+                    <CommercialFlightNumber>XQTST7</CommercialFlightNumber>
+                </FlightNumber>
+             </FlightIdentification>
+        <DepartureAirport airportFunction="DepartureAirport" airportName="ANTALYA INTL">
+            <AirportICAOCode>LTAI</AirportICAOCode>
+            <AirportIATACode>AYT</AirportIATACode>
+        </DepartureAirport>
+        <ArrivalAirport airportFunction="ArrivalAirport" airportName="COLOGNE/BONN">
+            <AirportICAOCode>EDDK</AirportICAOCode>
+            <AirportIATACode>CGN</AirportIATACode>
+        </ArrivalAirport>
+    </Flight>
+    <Aircraft aircraftRegistration="TCSMB" >
+        <AircraftModel airlineSpecificSubType="737-8 MAX//LEAP-1B27">
+            <AircraftICAOType>B38M</AircraftICAOType>
+        </AircraftModel>
+    </Aircraft>
+</M633SupplementaryHeader>
+    <Airport>
+        <AirportIdentification airportFunction="DepartureAirport" airportName="ANTALYA INTL">
+            <AirportICAOCode>LTAI</AirportICAOCode>
+            <AirportIATACode>AYT</AirportIATACode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="36R">
+            <Approach procedureName="TKOF">
+                <RequiredHorizontalVisibility unit="m">200</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">0</RequiredVerticalVisibility>  
+            </Approach>
+            <Elevation unit="ft">159</Elevation>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <Elevation unit="ft">177</Elevation>
+        <AirportReferencePoint><Coordinates latitude="132841" longitude="110855">N3654.0 E03047.6</Coordinates></AirportReferencePoint>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+        <LocalTimeOffsetToUTC positive="true">PT03H</LocalTimeOffsetToUTC>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ArrivalAirport" airportName="COLOGNE/BONN">
+            <AirportICAOCode>EDDK</AirportICAOCode>
+            <AirportIATACode>CGN</AirportIATACode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="13L">
+            <Approach procedureName="RNAV GPS LNAV/VNAV">
+                <RequiredHorizontalVisibility unit="m">1100</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">396</RequiredVerticalVisibility>
+            </Approach>
+            <Elevation unit="ft">229</Elevation>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <Elevation unit="ft">300</Elevation>
+        <AirportReferencePoint><Coordinates latitude="183117" longitude="25714">N5052.0 E00708.6</Coordinates></AirportReferencePoint>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+        <LocalTimeOffsetToUTC positive="true">PT02H</LocalTimeOffsetToUTC>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ArrivalAlternateAirport" airportName="HANNOVER">
+            <AirportICAOCode>EDDV</AirportICAOCode>
+            <AirportIATACode>HAJ</AirportIATACode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="27R">
+            <Approach procedureName="CAT3A">
+                <RequiredHorizontalVisibility unit="m">1000</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">250</RequiredVerticalVisibility>
+            </Approach>
+            <Elevation unit="ft">169</Elevation>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <Elevation unit="ft">183</Elevation>
+        <AirportReferencePoint><Coordinates latitude="188857" longitude="34861">N5227.6 E00941.0</Coordinates></AirportReferencePoint>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+        <LocalTimeOffsetToUTC positive="true">PT02H</LocalTimeOffsetToUTC>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ArrivalAlternateAirport" airportName="MUNSTER/OSNABRUCK">
+            <AirportICAOCode>EDDG</AirportICAOCode>
+            <AirportIATACode>FMO</AirportIATACode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="25">
+            <Approach procedureName="CAT3A">
+                <RequiredHorizontalVisibility unit="m">1000</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">250</RequiredVerticalVisibility>
+            </Approach>
+            <Elevation unit="ft">159</Elevation>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <Elevation unit="ft">159</Elevation>
+        <AirportReferencePoint><Coordinates latitude="187685" longitude="27665">N5208.1 E00741.1</Coordinates></AirportReferencePoint>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+        <LocalTimeOffsetToUTC positive="true">PT02H</LocalTimeOffsetToUTC>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="PrimaryArrivalAlternateAirport" airportName="PADERBORN-LIPPSTADT">
+            <AirportICAOCode>EDLP</AirportICAOCode>
+            <AirportIATACode>PAD</AirportIATACode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="24">
+            <Approach procedureName="CAT1DME">
+                <RequiredHorizontalVisibility unit="m">1350</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">400</RequiredVerticalVisibility>
+            </Approach>
+            <Elevation unit="ft">674</Elevation>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <Elevation unit="ft">699</Elevation>
+        <AirportReferencePoint><Coordinates latitude="185811" longitude="31019">N5136.8 E00837.0</Coordinates></AirportReferencePoint>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+        <LocalTimeOffsetToUTC positive="true">PT02H</LocalTimeOffsetToUTC>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ArrivalAlternateAirport" airportName="AMSTERDAM/SCHIPHOL">
+            <AirportICAOCode>EHAM</AirportICAOCode>
+            <AirportIATACode>AMS</AirportIATACode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="36C">
+            <Approach procedureName="CAT1DME">
+                <RequiredHorizontalVisibility unit="m">1350</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">400</RequiredVerticalVisibility>
+            </Approach>
+            <Elevation unit="ft">-12</Elevation>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <Elevation unit="ft">-11</Elevation>
+        <AirportReferencePoint><Coordinates latitude="188309" longitude="17151">N5218.5 E00445.9</Coordinates></AirportReferencePoint>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+        <LocalTimeOffsetToUTC positive="true">PT02H</LocalTimeOffsetToUTC>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ETOPSAdequateAirport" >
+            <AirportICAOCode>LTAI</AirportICAOCode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="18L">
+            <Approach procedureName="LOC+NDB">
+                <RequiredHorizontalVisibility unit="m">9999</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">9999</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ETOPSAdequateAirport" >
+            <AirportICAOCode>LBSF</AirportICAOCode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="09">
+            <Approach procedureName="RNAV GPS LNAV/VNAV">
+                <RequiredHorizontalVisibility unit="m">9999</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">9999</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ETOPSAdequateAirport" >
+            <AirportICAOCode>EPWA</AirportICAOCode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="29">
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ETOPSAdequateAirport" >
+            <AirportICAOCode>LFSB</AirportICAOCode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="15">
+            <Approach procedureName="CAT1DME">
+                <RequiredHorizontalVisibility unit="m">9999</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">9999</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+    </Airport>
+    <Airport>
+        <AirportIdentification airportFunction="ETOPSAdequateAirport" >
+            <AirportICAOCode>EDDK</AirportICAOCode>
+        </AirportIdentification>
+        <Runway runwayIdentifier="06">
+            <Approach procedureName="RNAV GPS LNAV/VNAV">
+                <RequiredHorizontalVisibility unit="m">9999</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">9999</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+        <RequiredFlightCrewQualification>E</RequiredFlightCrewQualification>
+    </Airport>
+<Airport>
+         <AirportIdentification airportFunction="EscapeAirport">
+            <AirportICAOCode>EDDK</AirportICAOCode>
+
+         </AirportIdentification>
+        <Runway runwayIdentifier="13L">
+            <Approach procedureName="RNAV GPS LNAV/VNAV">
+                <RequiredHorizontalVisibility unit="m">2100</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">596</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+</Airport>
+<Airport>
+         <AirportIdentification airportFunction="EscapeAirport">
+            <AirportICAOCode>LBBG</AirportICAOCode>
+
+         </AirportIdentification>
+        <Runway runwayIdentifier="22"> 
+            <Approach procedureName="RNAV GPS LNAV/VNAV">
+                <RequiredHorizontalVisibility unit="m">750</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">250</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+</Airport>
+<Airport>
+         <AirportIdentification airportFunction="EscapeAirport">
+            <AirportICAOCode>LBSF</AirportICAOCode>
+
+         </AirportIdentification>
+        <Runway runwayIdentifier="27"> 
+            <Approach procedureName="RNAV CAT1">
+                <RequiredHorizontalVisibility unit="m">2000</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">589</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+</Airport>
+<Airport>
+         <AirportIdentification airportFunction="EscapeAirport">
+            <AirportICAOCode>LTAI</AirportICAOCode>
+
+         </AirportIdentification>
+        <Runway runwayIdentifier="18L">
+            <Approach procedureName="LOC+NDB">
+                <RequiredHorizontalVisibility unit="m">2600</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">704</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+</Airport>
+<Airport>
+         <AirportIdentification airportFunction="EscapeAirport">
+            <AirportICAOCode>LTBU</AirportICAOCode>
+
+         </AirportIdentification>
+        <Runway runwayIdentifier="22"> 
+            <Approach procedureName="VORDME">
+                <RequiredHorizontalVisibility unit="m">2600</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">630</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+</Airport>
+<Airport>
+         <AirportIdentification airportFunction="EscapeAirport">
+            <AirportICAOCode>LTFM</AirportICAOCode>
+
+         </AirportIdentification>
+        <Runway runwayIdentifier="35R">
+            <Approach procedureName="RNAV CAT1">
+                <RequiredHorizontalVisibility unit="m">550</RequiredHorizontalVisibility>
+                <RequiredVerticalVisibility unit="ft">200</RequiredVerticalVisibility>
+            </Approach>
+            <ApprovedForRegularOperation>true</ApprovedForRegularOperation>
+        </Runway>
+</Airport>
+</AirportData>

@@ -1,0 +1,3700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpperAirData flightPlanId="OFP1/0/0" xsi:schemaLocation="http://aeec.aviation-ia.net/633 UpperAirData.xsd" xmlns="http://aeec.aviation-ia.net/633" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<M633Header timestamp="2025-05-15T06:17:14Z" versionNumber="3"/> 
+<M633SupplementaryHeader>
+    <Flight flightOriginDate="2025-05-15Z" scheduledTimeOfDeparture="2025-05-15T16:00:00Z">
+        <FlightIdentification>
+            <FlightIdentifier>SXSTST1</FlightIdentifier>
+                <FlightNumber airlineIATACode="XQ" number="TST1" >
+                    <CommercialFlightNumber>XQTST1</CommercialFlightNumber>
+                </FlightNumber>
+             </FlightIdentification>
+        <DepartureAirport airportFunction="DepartureAirport" airportName="ANTALYA INTL">
+            <AirportICAOCode>LTAI</AirportICAOCode>
+            <AirportIATACode>AYT</AirportIATACode>
+        </DepartureAirport>
+        <ArrivalAirport airportFunction="ArrivalAirport" airportName="COLOGNE/BONN">
+            <AirportICAOCode>EDDK</AirportICAOCode>
+            <AirportIATACode>CGN</AirportIATACode>
+        </ArrivalAirport>
+    </Flight>
+    <Aircraft aircraftRegistration="TCSMB" >
+        <AircraftModel airlineSpecificSubType="737-8 MAX//LEAP-1B27">
+            <AircraftICAOType>B38M</AircraftICAOType>
+        </AircraftModel>
+    </Aircraft>
+</M633SupplementaryHeader>
+    <ObservationTimes>
+        <ObservationTime prognosisValidityTime="2025-05-15T15:00:00">2025-05-15T00:00:00</ObservationTime>
+        <ObservationTime prognosisValidityTime="2025-05-15T18:00:00">2025-05-15T00:00:00</ObservationTime>
+        <ObservationTime prognosisValidityTime="2025-05-15T21:00:00">2025-05-15T00:00:00</ObservationTime>
+    </ObservationTimes>
+    <ClimbPhase>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">100</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">295</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">7.4</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+                <WindComponent>
+                    <Value unit="kt">-4.5</Value>
+                </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">2.0</Value> 
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.8</Value> 
+                    </ISADeviation>
+                </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">150</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">284</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">26.0</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+                <WindComponent>
+                    <Value unit="kt">-11.3</Value>
+                </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-7.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.6</Value> 
+                    </ISADeviation>
+                </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">200</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">279</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">41.4</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+                <WindComponent>
+                    <Value unit="kt">-14.4</Value>
+                </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-16.3</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">8.3</Value> 
+                    </ISADeviation>
+                </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">310</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">284</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">81.6</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+                <WindComponent>
+                    <Value unit="kt">-35.0</Value>
+                </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-42.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">4.3</Value> 
+                    </ISADeviation>
+                </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">350</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">282</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">95.6</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+                <WindComponent>
+                    <Value unit="kt">-38.3</Value>
+                </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">2.3</Value> 
+                    </ISADeviation>
+                </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+    </ClimbPhase>
+    <CruisePhase>
+      <Waypoints>
+        <Waypoint sequenceId="1" waypointId="T_O_C" waypointName="T_O_C" >
+            <Coordinates latitude="+133753" longitude="+111133">N3709.2 E03052.2</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:26:28">
+                <Altitude>
+                    <Value unit="ft/100">80</Value> 
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">321</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">5</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-5</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">6.3</Value> 
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:26:28">
+                <Altitude>
+                    <Value unit="ft/100">90</Value> 
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">308</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">7</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-5</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">4.2</Value> 
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:26:28">
+                <Altitude>
+                    <Value unit="ft/100">100</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">295</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">7</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-4</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">2.0</Value> 
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:26:28">
+                <Altitude>
+                    <Value unit="ft/100">110</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">292</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">11</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-6</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">0.2</Value> 
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:26:28">
+                <Altitude>
+                    <Value unit="ft/100">120</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">289</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">15</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-7</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-1.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">42306</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="2" waypointId="HANKO" waypointName="HANKO" countryICAOCode="LT">
+            <Coordinates latitude="+142196" longitude="+108958">N3929.9 E03016.0</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:50:40">
+                <Altitude>
+                    <Value unit="ft/100">320</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">286</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">103</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-70</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-45.3</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">3.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:50:40">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">281</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">110</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-67</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">2.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:50:40">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">282</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">111</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-70</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-55.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:50:40">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">286</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">102</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-70</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.3</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:50:40">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">286</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">81</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-55</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-60.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-4.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">40030</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="3" waypointId="EMBIX" waypointName="EMBIX" countryICAOCode="LT">
+            <Coordinates latitude="+143863" longitude="+108065">N3957.7 E03001.1</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:55:24">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">281</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">114</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-62</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">2.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:55:24">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">281</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">116</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-64</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-55.3</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:55:24">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">285</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">107</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-64</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-2.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:55:24">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">285</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">84</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-51</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-61.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-4.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T16:55:24">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">281</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">60</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-33</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-2.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">39718</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="4" waypointId="INSEG" waypointName="INSEG" countryICAOCode="LT">
+            <Coordinates latitude="+146381" longitude="+106691">N4039.7 E02938.2</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:02:37">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">280</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">115</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-61</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:02:37">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">281</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">113</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-62</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-55.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">0.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:02:37">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">283</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">102</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-59</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-2.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:02:37">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">283</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">80</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-47</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-59.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-3.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:02:37">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">280</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">57</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-31</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">39295</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="5" waypointId="BKZ" waypointName="BKZ" countryICAOCode="LT">
+            <Coordinates latitude="+148057" longitude="+104914">N4107.6 E02908.6</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:08:29">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">278</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">116</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-85</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:08:29">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">280</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">112</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-84</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-55.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">0.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:08:29">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">281</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">99</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-76</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-2.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:08:29">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">281</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">79</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-60</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-59.3</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-2.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:08:29">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">279</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">56</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-41</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-57.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">39062</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="6" waypointId="DIGBO" waypointName="DIGBO" countryICAOCode="LT">
+            <Coordinates latitude="+149377" longitude="+102256">N4129.6 E02824.3</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:15:11">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">276</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">112</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-99</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-51.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:15:11">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">277</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">110</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-99</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-55.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">0.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:15:11">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">279</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">97</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-88</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.3</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:15:11">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">279</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">77</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-70</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-59.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-2.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:15:11">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">276</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">55</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-49</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-57.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">38927</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="7" waypointId="VADEN" waypointName="VADEN" countryICAOCode="LT">
+            <Coordinates latitude="+151436" longitude="+97978">N4203.9 E02713.0</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:25:43">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">272</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">107</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-92</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-51.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">0.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:25:43">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">273</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">108</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-94</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-56.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">0.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:25:43">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">275</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">95</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-85</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.4</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:25:43">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">276</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">76</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-67</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-58.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-2.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T17:25:43">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">274</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">55</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-48</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-57.4</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">38688</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="8" waypointId="UTEKA" waypointName="UTEKA" countryICAOCode="LB">
+            <Coordinates latitude="+158084" longitude="+80612">N4354.7 E02223.5</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:04:06">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">256</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">78</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-59</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:04:06">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">257</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">77</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-59</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-54.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:04:06">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">261</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">70</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-57</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-56.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">0.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:04:06">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">266</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">59</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-51</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-55.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:04:06">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">268</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">42</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-37</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-54.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">37484</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="9" waypointId="DONIV" waypointName="DONIV" countryICAOCode="LY">
+            <Coordinates latitude="+161096" longitude="+76210">N4444.9 E02110.2</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:14:46">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">255</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">68</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-35</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:14:46">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">257</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">66</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-36</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-54.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:14:46">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">260</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">60</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-35</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-54.4</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">2.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:14:46">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">262</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">50</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-31</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-54.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">2.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:14:46">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">263</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">38</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-24</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-53.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">2.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">36457</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="10" waypointId="TONDO" waypointName="TONDO" countryICAOCode="LH">
+            <Coordinates latitude="+165770" longitude="+69681">N4602.8 E01921.4</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:30:26">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">256</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">61</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-31</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">0.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:30:26">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">262</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">54</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-32</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">3.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:30:26">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">264</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">47</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-29</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">3.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:30:26">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">271</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">39</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-28</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">4.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:30:26">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">276</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">29</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-22</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-51.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">34429</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="11" waypointId="OKORA" waypointName="OKORA" countryICAOCode="LH">
+            <Coordinates latitude="+168359" longitude="+66137">N4646.0 E01822.3</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:38:51">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">260</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">63</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-35</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.4</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:38:51">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">266</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">52</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-33</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:38:51">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">269</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">43</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-28</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:38:51">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">276</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">35</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-27</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:38:51">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">286</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">27</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-23</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">33373</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="12" waypointId="BEGLA" waypointName="BEGLA" countryICAOCode="LH">
+            <Coordinates latitude="+172191" longitude="+61612">N4749.9 E01706.9</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:50:18">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">271</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">52</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-34</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:50:18">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">277</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">40</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-28</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">9.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:50:18">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">283</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">33</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-26</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.3</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">9.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:50:18">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">292</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">28</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-24</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">8.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:50:18">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">302</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">23</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-22</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">30984</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="13" waypointId="FMD" waypointName="FMD" countryICAOCode="LO">
+            <Coordinates latitude="+173178" longitude="+59865">N4806.3 E01637.8</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:53:52">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">277</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">45</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-37</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-46.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:53:52">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">285</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">35</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-32</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-46.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">9.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:53:52">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">291</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">30</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-28</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-46.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">9.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:53:52">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">299</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">26</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-25</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">8.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T18:53:52">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">308</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">22</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-22</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">30276</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="14" waypointId="KOVEL" waypointName="KOVEL" countryICAOCode="LO">
+            <Coordinates latitude="+175323" longitude="+56150">N4842.1 E01535.8</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:01:28">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">292</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">29</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-27</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-45.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:01:28">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">302</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">28</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-27</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-46.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">10.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:01:28">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">309</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">26</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-26</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-46.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">10.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:01:28">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">315</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">26</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-26</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">9.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:01:28">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">326</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">22</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-21</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.4</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">8.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">28474</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="15" waypointId="DITIS" waypointName="DITIS" countryICAOCode="LO">
+            <Coordinates latitude="+176033" longitude="+54419">N4853.9 E01507.0</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:04:34">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">306</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">24</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-24</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-45.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:04:34">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">312</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">25</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-25</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-46.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">10.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:04:34">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">317</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">25</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-24</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-46.3</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">10.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:04:34">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">319</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">24</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-23</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">9.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:04:34">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">327</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">23</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-21</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">28219</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="16" waypointId="RAPET" waypointName="RAPET" countryICAOCode="LK">
+            <Coordinates latitude="+180686" longitude="+44419">N5011.4 E01220.3</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:22:55">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">9</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">56</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-26</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:22:55">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">6</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">49</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-24</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">8.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:22:55">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">4</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">41</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-22</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">8.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:22:55">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">2</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">31</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-17</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">8.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:22:55">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">355</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">24</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-16</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">29951</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="17" waypointId="URONA" waypointName="URONA" countryICAOCode="ED">
+            <Coordinates latitude="+180892" longitude="+43106">N5014.9 E01158.4</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:24:51">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">10</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">61</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-4</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-47.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">4.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:24:51">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">8</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">53</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-5</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.4</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:24:51">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">6</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">43</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-6</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.4</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">8.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:24:51">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">3</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">32</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-6</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:24:51">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">356</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">25</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-8</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">31280</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="18" waypointId="RONTU" waypointName="RONTU" countryICAOCode="ED">
+            <Coordinates latitude="+181098" longitude="+41772">N5018.3 E01136.2</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:26:49">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">10</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">65</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-4</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">3.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:26:49">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">9</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">57</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-4</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:26:49">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">7</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">46</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-5</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:26:49">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">4</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">34</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-6</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">7.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:26:49">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">357</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">25</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-7</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">32461</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="19" waypointId="LASGA" waypointName="LASGA" countryICAOCode="ED">
+            <Coordinates latitude="+181298" longitude="+40421">N5021.6 E01113.7</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:28:48">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">11</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">68</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-3</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">3.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:28:48">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">11</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">61</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-3</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:28:48">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">9</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">49</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-4</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:28:48">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">5</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">35</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-5</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.9</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:28:48">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">359</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">26</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-6</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">33474</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="20" waypointId="PILAM" waypointName="PILAM" countryICAOCode="ED">
+            <Coordinates latitude="+181566" longitude="+38560">N5026.1 E01042.7</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:31:32">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">11</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">69</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-2</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-49.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">2.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:31:32">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">10</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">62</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-3</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:31:32">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">9</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">51</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-3</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:31:32">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">7</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">38</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-4</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.4</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">6.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:31:32">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">2</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">28</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-5</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.8</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">34350</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="21" waypointId="VELIS" waypointName="VELIS" countryICAOCode="ED">
+            <Coordinates latitude="+181689" longitude="+37709">N5028.2 E01028.5</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:32:46">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">11</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">69</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-2</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">2.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:32:46">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">10</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">63</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-3</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-51.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:32:46">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">10</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">53</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-3</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-51.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:32:46">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">8</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">39</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-3</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:32:46">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">3</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">28</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-5</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">34790</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="22" waypointId="DEMAB" waypointName="DEMAB" countryICAOCode="ED">
+            <Coordinates latitude="+181948" longitude="+35841">N5032.5 E00957.4</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:35:30">
+                <Altitude>
+                    <Value unit="ft/100">340</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">12</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">70</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-1</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-50.7</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">1.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:35:30">
+                <Altitude>
+                    <Value unit="ft/100">360</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">10</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">65</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-2</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">4.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:35:30">
+                <Altitude>
+                    <Value unit="ft/100">380</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">10</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">55</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-2</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-52.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">4.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:35:30">
+                <Altitude>
+                    <Value unit="ft/100">400</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">9</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">41</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-2</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-51.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:35:30">
+                <Altitude>
+                    <Value unit="ft/100">430</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">5</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">30</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-4</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-51.5</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">5.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">35778</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="23" waypointId="GEVTA" waypointName="GEVTA" countryICAOCode="ED">
+            <Coordinates latitude="+183452" longitude="+34892">N5057.5 E00941.5</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:39:42">
+                <Altitude>
+                    <Value unit="ft/100">240</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">20</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">69</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-52</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-33.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:39:42">
+                <Altitude>
+                    <Value unit="ft/100">260</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">20</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">71</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-53</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-37.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:39:42">
+                <Altitude>
+                    <Value unit="ft/100">280</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">19</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">73</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-55</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-42.1</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.7</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:39:42">
+                <Altitude>
+                    <Value unit="ft/100">300</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">19</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">75</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-57</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-46.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:39:42">
+                <Altitude>
+                    <Value unit="ft/100">320</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">17</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">74</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">-58</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-48.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">35981</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="24" waypointId="LAMOP" waypointName="LAMOP" countryICAOCode="ED">
+            <Coordinates latitude="+183553" longitude="+34080">N5059.2 E00928.0</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:40:56">
+                <Altitude>
+                    <Value unit="ft/100">220</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">19</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">62</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+8</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-29.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:40:56">
+                <Altitude>
+                    <Value unit="ft/100">240</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">20</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">68</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+11</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-32.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:40:56">
+                <Altitude>
+                    <Value unit="ft/100">260</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">20</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">70</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+10</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-37.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.1</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:40:56">
+                <Altitude>
+                    <Value unit="ft/100">280</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">19</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">73</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+10</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-42.0</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:40:56">
+                <Altitude>
+                    <Value unit="ft/100">300</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">18</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">76</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+10</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-45.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.5</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">36129</Value>
+            </Tropopause>
+        </Waypoint>
+        <Waypoint sequenceId="25" waypointId="T_O_D" waypointName="T_O_D" >
+            <Coordinates latitude="+183613" longitude="+33581">N5100.2 E00919.7</Coordinates>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:41:44">
+                <Altitude>
+                    <Value unit="ft/100">200</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">17</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">56</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+6</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-25.2</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.6</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:41:44">
+                <Altitude>
+                    <Value unit="ft/100">220</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">19</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">62</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+9</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-28.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.2</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:41:44">
+                <Altitude>
+                    <Value unit="ft/100">240</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">20</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">67</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+11</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-32.8</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-0.3</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:41:44">
+                <Altitude>
+                    <Value unit="ft/100">260</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">20</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">70</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+11</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-37.6</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.0</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <AltitudeSpecificPredictedInformation predictedTime="2025-05-15T19:41:44">
+                <Altitude>
+                    <Value unit="ft/100">280</Value>
+                </Altitude>
+                <WindData>
+                    <HorizontalWind>
+                        <Direction>
+                            <Value type="true" unit="deg">19</Value>
+                        </Direction>
+                        <Speed>
+                            <Value unit="kt">73</Value>
+                        </Speed>
+                    </HorizontalWind>
+                </WindData>
+                    <WindComponent>
+                        <Value unit="kt">+10</Value>
+                    </WindComponent>
+                <TemperatureData>
+                    <Temperature>
+                        <Value unit="C">-41.9</Value>
+                    </Temperature>
+                    <ISADeviation>
+                        <Value unit="C">-1.4</Value>
+                    </ISADeviation>
+                </TemperatureData>
+            </AltitudeSpecificPredictedInformation>
+            <Tropopause>
+                <Value unit="ft">36217</Value>
+            </Tropopause>
+        </Waypoint>
+      </Waypoints>
+    </CruisePhase>
+    <DescentPhase>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">390</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">10</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">53</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+            <WindComponent>
+                <Value unit="kt">-1</Value>
+            </WindComponent>
+            <TemperatureData>
+                <Temperature>
+                    <Value unit="C">-53.3</Value>
+                </Temperature>
+                <ISADeviation>
+                    <Value unit="C">3.2</Value>
+                </ISADeviation>
+            </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">350</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">13</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">70</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+            <WindComponent>
+                <Value unit="kt">+3</Value>
+            </WindComponent>
+            <TemperatureData>
+                <Temperature>
+                    <Value unit="C">-52.7</Value>
+                </Temperature>
+                <ISADeviation>
+                    <Value unit="C">1.7</Value>
+                </ISADeviation>
+            </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">310</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">17</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">76</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+            <WindComponent>
+                <Value unit="kt">+9</Value>
+            </WindComponent>
+            <TemperatureData>
+                <Temperature>
+                    <Value unit="C">-47.4</Value>
+                </Temperature>
+                <ISADeviation>
+                    <Value unit="C">-0.9</Value>
+                </ISADeviation>
+            </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">200</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">18</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">56</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+            <WindComponent>
+                <Value unit="kt">+7</Value>
+            </WindComponent>
+            <TemperatureData>
+                <Temperature>
+                    <Value unit="C">-24.6</Value>
+                </Temperature>
+                <ISADeviation>
+                    <Value unit="C">0.0</Value>
+                </ISADeviation>
+            </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+        <AltitudeSpecificPredictedInformation>
+            <Altitude>
+                <Value unit="ft/100">100</Value>
+            </Altitude>
+            <WindData>
+                <HorizontalWind>
+                    <Direction>
+                        <Value type="true" unit="deg">26</Value>
+                    </Direction>
+                    <Speed>
+                        <Value unit="kt">23</Value>
+                    </Speed>
+                </HorizontalWind>
+            </WindData>
+            <WindComponent>
+                <Value unit="kt">+13</Value>
+            </WindComponent>
+            <TemperatureData>
+                <Temperature>
+                    <Value unit="C">-5.0</Value>
+                </Temperature>
+                <ISADeviation>
+                    <Value unit="C">-0.2</Value>
+                </ISADeviation>
+            </TemperatureData>
+        </AltitudeSpecificPredictedInformation>
+    </DescentPhase>
+</UpperAirData>
